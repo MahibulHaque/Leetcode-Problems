@@ -1,5 +1,5 @@
 class Solution:
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+    def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
         dic_strs = {}
         for s in strs:
             if "".join(sorted(s)) not in dic_strs:
